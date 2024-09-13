@@ -20,21 +20,15 @@ body {
 }
 
 .section {
-    &__inner {
-        &--circle {
-            border-radius: 100%;
-            height: 70px;
-            width: 70px;
-            font-size: 16px;
-        }
-
-        &--rounded {
-            border-radius: 12px;
-        }
-    }
+    &__inner {}
 }
 
 .button {
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    box-shadow: 4px 5px 20px black;
+
     &--white {
         background: white;
     }
@@ -64,9 +58,17 @@ body {
         border-color: rgba(255, 255, 255, 0);
     }
 
-    &__icon {
-       
+    &--circle {
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+        font-size: 16px;
     }
+
+    &--rounded {
+        border-radius: 12px;
+    }
+
 }
 
 
