@@ -4,7 +4,7 @@
   scroll-behavior: smoot; }
 
 body {
-  background: #dddcdc;
+  background: #ffffff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31,20 +31,21 @@ body {
   width: 150px;
   margin: 20px;
   -webkit-box-shadow: 4px 5px 20px black;
-          box-shadow: 4px 5px 20px black; }
+          box-shadow: 4px 5px 20px black;
+  border-color: rgba(102, 102, 102, 0.171); }
   .button--white {
     background: white; }
   .button--black {
-    background: black;
+    background: rgba(0, 0, 0, 0.671);
     color: white; }
   .button--green {
-    background: green;
+    background: rgba(0, 128, 0, 0.678);
     color: white; }
   .button--red {
-    background: red;
+    background: rgba(255, 0, 0, 0.671);
     color: white; }
   .button--grey {
-    background: grey;
+    background: rgba(128, 128, 128, 0.705);
     color: white; }
   .button--transparent {
     background: rgba(255, 255, 255, 0);

@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #dddcdc;
+    background: #ffffff;
     justify-content: center;
     min-width: 320px;
     max-width: 1800px;
@@ -28,28 +28,29 @@ body {
     width: 150px;
     margin: 20px;
     box-shadow: 4px 5px 20px black;
+    border-color: rgba(102, 102, 102, 0.171);
 
     &--white {
         background: white;
     }
 
     &--black {
-        background: black;
+        background: rgba(0, 0, 0, 0.671);
         color: white;
     }
 
     &--green {
-        background: green;
+        background: rgba(0, 128, 0, 0.678);
         color: white;
     }
 
     &--red {
-        background: red;
+        background: rgba(255, 0, 0, 0.671);
         color: white;
     }
 
     &--grey {
-        background: grey;
+        background: rgba(128, 128, 128, 0.705);
         color: white;
     }
 
