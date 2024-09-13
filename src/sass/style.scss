@@ -24,7 +24,7 @@ body {
 }
 
 .button {
-    height: 50px;
+    height: 60px;
     width: 150px;
     margin: 20px;
     box-shadow: 4px 5px 20px black;
@@ -68,6 +68,21 @@ body {
 
     &--rounded {
         border-radius: 12px;
+        font-weight: 700;
+    }
+
+    &__img {
+        height: 20px;
+        width: 20px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+
+
     }
 
 }
